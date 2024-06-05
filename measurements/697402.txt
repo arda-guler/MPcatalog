@@ -1,0 +1,44 @@
+COD T09
+CON S. Urakawa, [urakawa@spaceguard.or.jp], BSGC, Okayama, Japan
+OBS H. Aihara, Y. AlSayyad, M. Ando, R. Armstrong, J. Bosch, E. Egami,
+OBS H. Furusawa, J. Furusawa, S. Harasawa, Y. Harikane, B.-C. Hsieh, H. Ikeda,
+OBS K. Ito, I. Iwata, T. Kodama, M. Koike, M. Kokubo, Y. Komiyama, X. Li,
+OBS Y. Liang, Y.-T. Lin, R. H. Lupton, N. B. Lust, L. A. MacArthur,
+OBS K. Mawatari, S. Mineo, H. Miyatake, S. Miyazaki, S. More, T. Morishima,
+OBS H. Murayama, K. Nakajima, F. Nakata, A. J. Nishizawa, M. Oguri, N. Okabe,
+OBS Y. Okura, Y. Ono, K. Osato, M. Ouchi, Y.-C. Pan, A. A. Plazas Malag\'on,
+OBS P. A. Price, S. L. Reed, E. S. Rykoff, T. Shibuya, M. Simunovic,
+OBS M. A. Strauss, K. Sugimori, Y. Suto, N. Suzuki, M. Takada, Y. Takagi,
+OBS T. Takata, S. Takita, M. Tanaka, S. Tang, D. S. Taranu, T. Terai, Y. Toba,
+OBS E. L. Turner, H. Uchiyama, B. Vijarnwannaluk, C. Z. Waters, Y. Yamada,
+OBS N. Yamamoto, T. Yamashita
+MEA H. A. Guler
+TEL 8.2-m f/2.0 reflector + CCD(HSC)
+NET PS1-DR1
+ACK Subaru/HSC
+     H275846* C2017 01 23.35517 09 55 38.88 +02 54 24.5          22.4 r      T09
+     H275846  C2017 01 23.37982 09 55 38.02 +02 54 28.8          22.4 r      T09
+     H275846  C2017 01 23.38883 09 55 37.70 +02 54 30.4          22.4 r      T09
+     H275846  C2017 01 23.40271 09 55 37.20 +02 54 32.9          22.3 r      T09
+     H275846  C2017 01 23.41678 09 55 36.70 +02 54 35.4          22.6 r      T09
+     H275846  C2017 01 23.43794 09 55 35.95 +02 54 39.3          22.4 r      T09
+     H275846  C2017 01 23.53733 09 55 32.40 +02 54 56.4          22.1 i      T09
+     H275846  C2017 01 23.58131 09 55 30.83 +02 55 04.2          22.2 i      T09
+     H275847* C2017 01 23.35517 09 55 53.16 +02 57 15.0          24.3 r      T09
+     H275847  C2017 01 23.38883 09 55 51.76 +02 57 20.0          24.1 r      T09
+     H275847  C2017 01 23.40271 09 55 51.18 +02 57 22.3          23.9 r      T09
+     H275847  C2017 01 23.43794 09 55 49.71 +02 57 27.5          24.0 r      T09
+     H275847  C2017 01 23.58131 09 55 43.66 +02 57 49.5          24.4 i      T09
+     H275848* C2017 01 23.38883 09 55 54.50 +02 58 41.0          23.7 r      T09
+     H275848  C2017 01 23.40271 09 55 53.86 +02 58 44.6          24.0 r      T09
+     H275848  C2017 01 23.41678 09 55 53.24 +02 58 48.1          24.0 r      T09
+     H275848  C2017 01 23.50979 09 55 49.08 +02 59 11.6          24.5 i      T09
+     H275848  C2017 01 23.53733 09 55 47.84 +02 59 18.5          24.4 i      T09
+     H275849* C2017 01 23.35517 09 55 45.78 +03 01 16.2          23.9 r      T09
+     H275849  C2017 01 23.40271 09 55 43.63 +03 01 09.9          23.9 r      T09
+     H275849  C2017 01 23.41678 09 55 43.01 +03 01 08.1          23.6 r      T09
+     H275849  C2017 01 23.50979 09 55 38.76 +03 00 55.8          23.1 i      T09
+     H275849  C2017 01 23.53733 09 55 37.49 +03 00 52.3          23.5 i      T09
+     H275849  C2017 01 23.55094 09 55 36.87 +03 00 50.4          23.7 i      T09
+     H275849  C2017 01 23.58131 09 55 35.49 +03 00 46.5          24.2 i      T09
+
