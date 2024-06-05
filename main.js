@@ -76,24 +76,53 @@ const MP2017DK163 = createOrbit(68.2115976, 0.4643996, 11.60015, 285.33907, 307.
 const MP2017EE52 = createOrbit(45.7166719, 0.1041076, 6.18180, 109.26569, 120.03861, 128, 0x00ff00);
 const MP2017EV51 = createOrbit(44.3949376, 0.1813485, 20.54720, 175.60350, 111.92644, 128, 0x00ff00);
 
-scene.add(mercuryOrbit);
-scene.add(venusOrbit);
-scene.add(earthOrbit);
-scene.add(marsOrbit);
-scene.add(jupiterOrbit);
-scene.add(saturnOrbit);
-scene.add(uranusOrbit);
-scene.add(neptuneOrbit);
+const orbits = [
+    mercuryOrbit,
+    venusOrbit,
+    earthOrbit,
+    marsOrbit,
+    jupiterOrbit,
+    saturnOrbit,
+    uranusOrbit,
+    neptuneOrbit,
+    MP697402,
+    MP2017FG226,
+    MP2017AC64,
+    MP2017DW159,
+    MP2017BM230,
+    MP2017AD62,
+    MP2017DK163,
+    MP2017EE52,
+    MP2017EV51
+];
 
-scene.add(MP697402);
-scene.add(MP2017FG226);
-scene.add(MP2017AC64);
-scene.add(MP2017DW159);
-scene.add(MP2017BM230);
-scene.add(MP2017AD62);
-scene.add(MP2017DK163);
-scene.add(MP2017EE52);
-scene.add(MP2017EV51);
+const checkboxIds = [
+    'mercuryOrbitCheckbox',
+    'venusOrbitCheckbox',
+    'earthOrbitCheckbox',
+    'marsOrbitCheckbox',
+    'jupiterOrbitCheckbox',
+    'saturnOrbitCheckbox',
+    'uranusOrbitCheckbox',
+    'neptuneOrbitCheckbox',
+    'MP697402Checkbox',
+    'MP2017FG226Checkbox',
+    'MP2017AC64Checkbox',
+    'MP2017DW159Checkbox',
+    'MP2017BM230Checkbox',
+    'MP2017AD62Checkbox',
+    'MP2017DK163Checkbox',
+    'MP2017EE52Checkbox',
+    'MP2017EV51Checkbox'
+];
+
+orbits.forEach((orbit, index) => {
+    orbit.visible = document.getElementById("mercuryOrbitCheckbox");
+	if (document.getElementById("mercuryOrbitCheckbox").checked) {
+		console.log('Checkbox is checked');
+	}
+    scene.add(orbit);
+});
 
 const orbitSpeed = 0.0003; // Speed of the orbit
 
@@ -129,5 +158,13 @@ animate();
 window.addEventListener('resize', () => {
 	const width = window.innerWidth - 20;
     camera.aspect = width / window.innerHeight;
+	camera.updateProjectionMatrix();
     renderer.setSize(width, window.innerHeight);
+});
+
+
+checkboxIds.forEach((id, index) => {
+    document.getElementById(id).addEventListener('change', (event) => {
+        orbits[index].visible = event.target.checked;
+    });
 });
